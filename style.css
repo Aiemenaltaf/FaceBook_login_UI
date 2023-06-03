@@ -1,0 +1,112 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+header{
+    background: #415e9b;
+    height: 82px;
+    border-bottom: 1px solid rgb(12, 90, 153);
+}
+
+
+.headerArea{
+    width: 992px;
+    margin: 0px;
+}
+
+.Logo{
+    width: 50%;
+    float: left;
+}
+
+.Logo img{
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.Login{
+    width: 50%;
+    float: left;
+}
+
+.headerArea label{
+    color: white;
+}
+
+.email{
+    float: left;
+}
+.email input[type="text"]{
+    height: 20px;
+    width: 150px;
+    border: 1px solid #213066;
+}
+.email label{
+    padding-bottom: 10px;
+}
+
+.password{
+    float: left;    
+    margin-left: 15px;
+}
+
+.LoginButton{
+    float: left;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    /* margin-top: 20px;
+    margin-left: 20px; */
+} 
+.password input[type="password"]{
+    height: 20px;
+    width: 150px;
+    border: 1px solid #213066;
+}
+.password label{
+    padding-bottom: 10px;
+}
+.password a{
+    color: #98bce6;
+    text-decoration: none;
+    
+}
+
+
+.LoginButton input[type="submit"]{
+    
+    background: #4267b2;
+    border: 1px solid #29487d;
+    border-radius: 2px;
+    color:white;
+    height: 20px;
+    width: 50px;
+}
+
+.clearfix{
+    clear: both;
+}
+
+.FaceBook{
+    margin-top: 50px;
+}
+.FaceBook p{
+    color: #0e385f;
+    font-size: 25px;
+
+}
+.FaceBook img{
+    margin-top: 10px;
+}
+
+.CreateAccount{
+    float: left;
+    width: 50px;
+}
+.Page{
+    background: linear-gradient(#ffff, #d9ddeb);
+    overflow: hidden;
+}
+.CreateAccount h2{
+    font-size: 40px;
+}
